@@ -54,6 +54,23 @@ Future<void> main() async {
     debugPrint("Web 환경: Kakao Map SDK 초기화 생략");
   }
 
+  /*
+  API_BASE_URL=http://localhost:8080/api
+#API_BASE_URL=https://meomulm-backend.onrender.com/api
+#API_BASE_URL=https://meomulm-backend-n7zm.onrender.com/api
+#API_BASE_URL=https://render-test-backend-5buy.onrender.com/api
+ENVIRONMENT=development
+APP_NAME=meomulm
+KAKAO_NATIVE_APP_KEY=3c95e66276607e8937bd326b190aa2a4
+KAKAO_NATIVE_APP_LOGIN_KEY=6479015510bab44fe2932db399100204
+NAVER_LOGIN_CLIENT_ID=nfI6KPo2dJkWJTrBdYPU
+NAVER_LOGIN_CLIENT_SECRET=gy0MejYpsu
+NAVER_LOGIN_CLIENT_NAME=meomulm
+CLOUDINARY_CLOUD_NAME=dskouaacx
+CLOUDINARY_UPLOAD_PRESET=meomulm-image-preset
+STRIPE_PUBLISHABLE_KEY=pk_test_51SweJXGiFyx4MhG10g74uzN8xxc4M83Ilq6e5Oob16uOoDdAA2DyluvfQGKLnHQHiylJp3G15aIteXUmmEHXBLkQ00q2SHmRhc
+  */
+
   // ---------------------------------------------------------------
   // 초기 deeplink 캐치 (앱이 완전히 종료된 상태에서 링크로 열린 경우)
   // ---------------------------------------------------------------
